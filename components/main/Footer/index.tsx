@@ -90,7 +90,7 @@ const Footer = () => {
                   target="_blank"
                   align="right"
                 >
-                  <img src="/assets/icons/twitter.gif" />
+                  <img src="/assets/icons/twitter-icon.gif" />
                 </Link>
               </Grid>
               <Grid item xs={2}>
@@ -143,13 +143,13 @@ const Footer = () => {
             </div>
             <div className="statement-text">
               <p>
-                i-invest is Nigeria&apos;s foremost digital platform for Treasury
-                Bills, and now the preferred financial services marketplace in
-                Africa. It gives you access to investment opportunities from
-                various financial service providers within one safe and secure
-                platform. i-invest is PCI-DSS compliant and has ISO 27001
-                certification – the world&apos;s best-known standard for information
-                security management systems.
+                i-invest is Nigeria&apos;s foremost digital platform for
+                Treasury Bills, and now the preferred financial services
+                marketplace in Africa. It gives you access to investment
+                opportunities from various financial service providers within
+                one safe and secure platform. i-invest is PCI-DSS compliant and
+                has ISO 27001 certification – the world&apos;s best-known
+                standard for information security management systems.
               </p>
             </div>
           </div>

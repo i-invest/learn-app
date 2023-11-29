@@ -2,22 +2,28 @@
 /* eslint-disable @next/next/no-img-element */
 import { Container, Wrapper } from "../../lib";
 import styled from "@emotion/styled";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import animate from "../../lib/animate";
 
 const Kudi = () => {
-  
   return (
     <Wrapper>
       <Container>
         <Section>
           <div className="img-wrapper">
-            <motion.img {...animate({ duration: 0.5 })} src="/assets/img/kudi.png" alt="Kudi" draggable={false} />
+            <motion.img
+              {...animate({ duration: 0.5 })}
+              src="/assets/img/kudi.png"
+              alt="Kudi"
+              draggable={false}
+            />
           </div>
           <div className="kudi-text-content">
-            <motion.h2 {...animate({ duration: 0.7 })} className="kudi-text-title">
-              Get up to <span>10%</span> interest when you save with
-              i-invest
+            <motion.h2
+              {...animate({ duration: 0.7 })}
+              className="kudi-text-title"
+            >
+              Get up to <span>11%</span> interest when you save with i-invest
             </motion.h2>
             <motion.div {...animate({ duration: 1 })} className="btn-row">
               <div className="store-btn">
@@ -61,9 +67,9 @@ const Section = styled.section`
       position: relative;
       bottom: -0.5rem;
       height: auto;
-			@media (max-width: 600px) {
-				min-width: 0;
-			}
+      @media (max-width: 600px) {
+        min-width: 0;
+      }
     }
   }
   .kudi-text-content {
