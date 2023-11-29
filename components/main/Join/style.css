@@ -1,0 +1,73 @@
+.join-wrapper {
+  background: url("/assets/img/Bg-section-img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 80px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  padding: 4rem 2rem;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.join-container {
+  width: 100%;
+  max-width: 727px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.join-container .join-title {
+  color: #fff;
+  text-align: center;
+  font-size: 5rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.join-container .join-subtext {
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  font-family: "Source Sans Pro";
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.join-container .join-btn-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.join-container .join-btn-row .store-btn {
+  width: 100%;
+  max-width: 142px;
+}
+
+.join-container .join-btn-row .store-btn a {
+  display: block;
+  width: 100%;
+}
+
+.join-container .join-btn-row .store-btn a img {
+  width: 100%;
+  transition: ease-out 0.2s;
+}
+
+.join-container .join-btn-row .store-btn a img:hover {
+  scale: 0.9;
+}
+
+@media (max-width: 600px) {
+  .join-container .join-title {
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .join-container .join-btn-row {
+    gap: 1rem;
+  }
+}
